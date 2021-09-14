@@ -1,0 +1,21 @@
+{
+    "predictions": [
+        {
+            "runtime": 0.0,
+            "success": false,
+            "exception": "Python argument types in\n    rdkit.Chem.rdmolops.AddHs(NoneType)\ndid not match C++ signature:\n    AddHs(RDKit::ROMol mol, bool explicitOnly=False, bool addCoords=False, boost::python::api::object onlyOnAtoms=None, bool addResidueInfo=False)"
+        }
+    ],
+    "meta": {
+        "max_n": 128,
+        "tgt_nucs": [
+            "13C"
+        ],
+        "model_checkpoint_filename": "models/default_13C.checkpoint",
+        "model_meta_filename": "models/default_13C.meta",
+        "ts_start": "2021-09-14T18:31:21.388279",
+        "ts_end": "2021-09-14T18:31:21.608737",
+        "runtime_sec": 0.2204577922821045,
+        "use_cuda": false
+    }
+}
